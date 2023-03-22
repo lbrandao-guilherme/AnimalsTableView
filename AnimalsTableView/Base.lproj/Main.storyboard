@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hjX-eL-0VF">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="etc-55-X2F">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
@@ -28,7 +28,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qti-z6-lx7" userLabel="TitleLabel">
-                                <rect key="frame" x="0.0" y="159" width="393" height="60"/>
+                                <rect key="frame" x="0.0" y="203" width="393" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="4Zc-Kj-49N"/>
                                 </constraints>
@@ -52,6 +52,7 @@
                             <constraint firstItem="JGq-pO-Ghb" firstAttribute="top" secondItem="qti-z6-lx7" secondAttribute="bottom" constant="80" id="yBP-lB-ygx"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="pRj-TC-7D7"/>
                     <connections>
                         <outlet property="animalImageView" destination="JGq-pO-Ghb" id="8Kw-AX-dek"/>
                         <outlet property="startButton" destination="k1r-K3-oSR" id="plw-4y-3aN"/>
@@ -59,6 +60,24 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QPf-qz-9cC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="671" y="101"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="hCd-wK-lkp">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="etc-55-X2F" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="v9l-xf-X3n">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="hjX-eL-0VF" kind="relationship" relationship="rootViewController" id="90J-1e-JWf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QkG-iB-jyO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-138.1679389312977" y="101.40845070422536"/>
         </scene>

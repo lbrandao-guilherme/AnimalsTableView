@@ -14,6 +14,8 @@
 		44CAF16F29CB21170090FD2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44CAF16E29CB21170090FD2E /* Assets.xcassets */; };
 		44CAF17229CB21170090FD2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44CAF17029CB21170090FD2E /* LaunchScreen.storyboard */; };
 		44CAF17B29CB321F0090FD2E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CAF17A29CB321F0090FD2E /* Constants.swift */; };
+		44CAF17D29CB47A40090FD2E /* AnimalsScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44CAF17C29CB47A40090FD2E /* AnimalsScreen.storyboard */; };
+		44CAF17F29CB47BE0090FD2E /* AnimalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CAF17E29CB47BE0090FD2E /* AnimalsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		44CAF17129CB21170090FD2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44CAF17329CB21170090FD2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44CAF17A29CB321F0090FD2E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		44CAF17C29CB47A40090FD2E /* AnimalsScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AnimalsScreen.storyboard; sourceTree = "<group>"; };
+		44CAF17E29CB47BE0090FD2E /* AnimalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				44CAF16E29CB21170090FD2E /* Assets.xcassets */,
 				44CAF17029CB21170090FD2E /* LaunchScreen.storyboard */,
 				44CAF17329CB21170090FD2E /* Info.plist */,
+				44CAF17C29CB47A40090FD2E /* AnimalsScreen.storyboard */,
+				44CAF17E29CB47BE0090FD2E /* AnimalsViewController.swift */,
 			);
 			path = AnimalsTableView;
 			sourceTree = "<group>";
@@ -136,6 +142,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44CAF17D29CB47A40090FD2E /* AnimalsScreen.storyboard in Resources */,
 				44CAF17229CB21170090FD2E /* LaunchScreen.storyboard in Resources */,
 				44CAF16F29CB21170090FD2E /* Assets.xcassets in Resources */,
 				44CAF16D29CB21120090FD2E /* Main.storyboard in Resources */,
@@ -149,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44CAF17F29CB47BE0090FD2E /* AnimalsViewController.swift in Sources */,
 				44CAF16A29CB21120090FD2E /* ViewController.swift in Sources */,
 				44CAF16629CB21120090FD2E /* AppDelegate.swift in Sources */,
 				44CAF16829CB21120090FD2E /* SceneDelegate.swift in Sources */,
