@@ -15,7 +15,9 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-      
+        setupLabel()
+        setupAnimalImageView()
+        setupStartButton()
     }
     
     
@@ -23,8 +25,22 @@ class ViewController: UIViewController {
         
         
     }
-
     
+    func setupLabel() {
+        titleLabel.text = "Informações dos Animals"
+        titleLabel.font = UIFont.boldSystemFont(ofSize: 30)
+    }
+    
+    func setupAnimalImageView() {
+        animalImageView.image = UIImage(named: Constants.AnimalImages.appLogo)
+        
+    }
+    
+    func setupStartButton() {
+        startButton.setTitle("Começar", for: .normal)
+        startButton.backgroundColor = UIColor.green
+        
+    }
 
 }
 

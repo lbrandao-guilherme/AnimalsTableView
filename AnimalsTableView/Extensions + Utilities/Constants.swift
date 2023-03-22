@@ -10,21 +10,21 @@ import UIKit
 struct Constants {
     
     struct AnimalImages {
-        static let lion: UIImage = UIImage(named: "lion.png") ?? UIImage()
-        static let chameleon: UIImage = UIImage(named: "chameleon.png") ?? UIImage()
-        static let crocodile: UIImage = UIImage(named: "crocodile.png") ?? UIImage()
-        static let eagle: UIImage = UIImage(named: "eagle.png") ?? UIImage()
-        static let elephant: UIImage = UIImage(named: "elephant.png") ?? UIImage()
-        static let fox: UIImage = UIImage(named: "fox.png") ?? UIImage()
-        static let goat: UIImage = UIImage(named: "goat.png") ?? UIImage()
-        static let hippopotamus: UIImage = UIImage(named: "hippopotamus.png") ?? UIImage()
-        static let octopus: UIImage = UIImage(named: "octopus.png") ?? UIImage()
-        static let owl: UIImage = UIImage(named: "owl.png") ?? UIImage()
-        static let appLogo: UIImage = UIImage(named: "park.png") ?? UIImage()
-        static let pig: UIImage = UIImage(named: "pig.png") ?? UIImage()
-        static let sloth: UIImage = UIImage(named: "sloth.png") ?? UIImage()
-        static let toucan: UIImage = UIImage(named: "toucan.png") ?? UIImage()
-        static let turtle: UIImage = UIImage(named: "turtle.png") ?? UIImage()
+        static let lion: String = "lion.png"
+        static let chameleon: String = "chameleon.png"
+        static let crocodile: String = "crocodile.png"
+        static let eagle: String = "eagle.png"
+        static let elephant: String = "elephant.png"
+        static let fox: String = "fox.png"
+        static let goat: String = "goat.png"
+        static let hippopotamus: String = "hippopotamus.png"
+        static let octopus: String = "octopus.png"
+        static let owl: String = "owl.png"
+        static let appLogo: String = "park.png"
+        static let pig: String = "pig.png"
+        static let sloth: String = "sloth.png"
+        static let toucan: String = "toucan.png"
+        static let turtle: String = "turtle.png"
     }
-
+    
 }
