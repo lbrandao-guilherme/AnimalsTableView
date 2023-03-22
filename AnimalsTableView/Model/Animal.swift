@@ -11,5 +11,5 @@ struct Animal {
     let icon: String
     let name: String
     let averageAge: Int
-    let weight: Double
+    let averageWeight: Double
 }

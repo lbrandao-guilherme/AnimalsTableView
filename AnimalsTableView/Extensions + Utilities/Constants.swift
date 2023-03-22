@@ -45,4 +45,9 @@ struct Constants {
         static let turtle: String = "Turtle"
     }
     
+    struct FixedLabels {
+        static let avaregeAge: String = "Average age:"
+        static let avaregeWeight: String = "Average weight:"
+    }
+    
 }

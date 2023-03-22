@@ -25,8 +25,20 @@ class AnimalsTableViewCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        setupInfoLabels()
+    }
+    
+    func setupCell(_ data: Animal) {
+        animalIconImageView.image = UIImage(named: data.icon)
+        animalNameLabel.text = data.name
+        inputAnimalYearsLabel.text = String(data.averageAge)
+        inputAnimalYearsLabel.text = String(data.averageWeight)
     }
 
-    
+    func setupInfoLabels() {
+        animalYearsLabel.text = Constants.FixedLabels.avaregeAge
+        animalYearsLabel.textColor = UIColor.lightGray
+        animalWeightLabel.text = Constants.FixedLabels.avaregeWeight
+        animalWeightLabel.textColor = UIColor.lightGray
+    }
 }
