@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        setupLabel()
+      
     }
     
     
@@ -23,15 +23,7 @@ class ViewController: UIViewController {
         
         
     }
-    
-    func setupLabel() {
-        titleLabel.text = "Informações dos Animals"
-        titleLabel.font = UIFont.boldSystemFont(ofSize: 30)
-    }
-    
-    func setupAnimalImageView() {
-        animalImageView.image = 
-    }
+
     
 
 }
