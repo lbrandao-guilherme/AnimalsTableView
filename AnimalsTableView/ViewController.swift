@@ -22,8 +22,9 @@ class ViewController: UIViewController {
     
     
     @IBAction func tappedStartButton(_ sender: UIButton) {
-        
-        
+        let vc: AnimalsViewController? = UIStoryboard(name: "AnimalsScreen", bundle: nil).instantiateViewController(withIdentifier: "AnimalsScreen") as? AnimalsViewController
+        vc?.modalPresentationStyle = .fullScreen
+        self.navigationController?.pushViewController(vc ?? UIViewController(), animated: true)
     }
     
     func setupLabel() {
