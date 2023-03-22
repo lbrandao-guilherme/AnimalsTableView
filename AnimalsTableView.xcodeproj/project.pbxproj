@@ -18,6 +18,8 @@
 		44CAF17F29CB47BE0090FD2E /* AnimalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CAF17E29CB47BE0090FD2E /* AnimalsViewController.swift */; };
 		44CAF18329CB48A80090FD2E /* AnimalsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CAF18129CB48A80090FD2E /* AnimalsTableViewCell.swift */; };
 		44CAF18429CB48A80090FD2E /* AnimalsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44CAF18229CB48A80090FD2E /* AnimalsTableViewCell.xib */; };
+		44CAF18729CB4D380090FD2E /* AnimalsVCExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CAF18629CB4D380090FD2E /* AnimalsVCExtension.swift */; };
+		44CAF18A29CB4DC70090FD2E /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CAF18929CB4DC70090FD2E /* Animal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		44CAF17E29CB47BE0090FD2E /* AnimalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsViewController.swift; sourceTree = "<group>"; };
 		44CAF18129CB48A80090FD2E /* AnimalsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsTableViewCell.swift; sourceTree = "<group>"; };
 		44CAF18229CB48A80090FD2E /* AnimalsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnimalsTableViewCell.xib; sourceTree = "<group>"; };
+		44CAF18629CB4D380090FD2E /* AnimalsVCExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsVCExtension.swift; sourceTree = "<group>"; };
+		44CAF18929CB4DC70090FD2E /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,7 @@
 		44CAF16429CB21120090FD2E /* AnimalsTableView */ = {
 			isa = PBXGroup;
 			children = (
+				44CAF18829CB4DB90090FD2E /* Model */,
 				44CAF18029CB488D0090FD2E /* AnimalsTableViewCell */,
 				44CAF17929CB31E00090FD2E /* Extensions + Utilities */,
 				44CAF16529CB21120090FD2E /* AppDelegate.swift */,
@@ -85,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				44CAF17A29CB321F0090FD2E /* Constants.swift */,
+				44CAF18629CB4D380090FD2E /* AnimalsVCExtension.swift */,
 			);
 			path = "Extensions + Utilities";
 			sourceTree = "<group>";
@@ -96,6 +102,14 @@
 				44CAF18229CB48A80090FD2E /* AnimalsTableViewCell.xib */,
 			);
 			path = AnimalsTableViewCell;
+			sourceTree = "<group>";
+		};
+		44CAF18829CB4DB90090FD2E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				44CAF18929CB4DC70090FD2E /* Animal.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,8 +186,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				44CAF17F29CB47BE0090FD2E /* AnimalsViewController.swift in Sources */,
+				44CAF18A29CB4DC70090FD2E /* Animal.swift in Sources */,
 				44CAF18329CB48A80090FD2E /* AnimalsTableViewCell.swift in Sources */,
 				44CAF16A29CB21120090FD2E /* ViewController.swift in Sources */,
+				44CAF18729CB4D380090FD2E /* AnimalsVCExtension.swift in Sources */,
 				44CAF16629CB21120090FD2E /* AppDelegate.swift in Sources */,
 				44CAF16829CB21120090FD2E /* SceneDelegate.swift in Sources */,
 				44CAF17B29CB321F0090FD2E /* Constants.swift in Sources */,

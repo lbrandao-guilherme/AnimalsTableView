@@ -27,4 +27,22 @@ struct Constants {
         static let turtle: String = "turtle.png"
     }
     
+    struct AnimalsNames {
+        static let lion: String = "Lion"
+        static let chameleon: String = "Chameleon"
+        static let crocodile: String = "Crocodile"
+        static let eagle: String = "American Eagle"
+        static let elephant: String = "Elephant"
+        static let fox: String = "Fox"
+        static let goat: String = "Goat"
+        static let hippopotamus: String = "Hippopotamus"
+        static let octopus: String = "Octopus"
+        static let owl: String = "Owl"
+        static let appLogo: String = "Park"
+        static let pig: String = "Pig"
+        static let sloth: String = "Sloth"
+        static let toucan: String = "Toucan"
+        static let turtle: String = "Turtle"
+    }
+    
 }
